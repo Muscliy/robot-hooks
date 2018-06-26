@@ -1,0 +1,33 @@
+{
+  "name": "xiaomai-web-hooks",
+  "version": "1.0.0",
+  "description": "webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.0.0.8:9022/web/xiaomai-web-hooks.git"
+  },
+  "keywords": [
+    "hooks"
+  ],
+  "author": "huli",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "https": "^1.0.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
